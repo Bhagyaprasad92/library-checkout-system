@@ -1,5 +1,5 @@
-public class BookNotFoundException {
-    BookNotFoundException() {
-        
+public class BookNotFoundException extends Exception {
+    BookNotFoundException(String message) {
+        super(message);
     }
 }
